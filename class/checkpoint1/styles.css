@@ -6,3 +6,8 @@ img {
     max-width: 600px;
     width: 100%;
 }
+
+.tagline {
+    font-style: italic;
+    text-align: center;
+}
