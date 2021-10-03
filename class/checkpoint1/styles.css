@@ -16,3 +16,12 @@ img {
 .dates {
     font-style: italic;
 }
+
+.education {
+    font-style: italic;
+}
+
+.heading {
+    background-color: #33485e
+    color: white;
+}
