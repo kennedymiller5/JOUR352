@@ -42,11 +42,49 @@ body {
     letter-spacing: 2px;
 }
 
-/* menu */
+/* menu headings*/
 h3 {
     text-transform: uppercase;
     color: #ab3232;
     border-bottom: 2px dotted #807a79;
     letter-spacing: 2px;
     width: 40%;
+    padding-bottom: 7px;
+    margin-bottom: 25px;
+}
+
+.special {
+    background-color: #E6F1EB;
+    border: 2px dotted #807a79;
+    padding: 0 12px;
+}
+
+.price {
+    font-style: italic;
+}
+
+.item-option {
+    font-style: italic;
+    color: grey;
+}
+
+h6 {
+    letter-spacing: 2px;
+    color: #ab3232;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+.footer img {
+    float: right;
+    padding-left: 15px;
+}
+
+.footer p {
+    color: #93b5af
+}
+
+.book {
+    font-weight: bold;
+    color: black;
 }
