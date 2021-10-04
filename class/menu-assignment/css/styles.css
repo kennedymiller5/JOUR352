@@ -88,3 +88,7 @@ h6 {
     font-weight: bold;
     color: black;
 }
+
+.footer a {
+    color: red;
+}
