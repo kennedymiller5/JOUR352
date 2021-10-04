@@ -1,4 +1,15 @@
 /* font-family: "Raleway", sans-serif; */
 body {
     background: red;
+    font-family: "Raleway", sans-serif;
 }
+
+.logo {
+    width: 50%;
+}
+
+.kitchen-intro {
+    
+}
+
+.event-house-description
