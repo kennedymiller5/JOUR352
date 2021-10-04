@@ -4,21 +4,23 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-.logo {
+
+.topper .logo {
     width: 80%;
     margin: 0 auto 50px auto;
     display: block;
 }
 
-.kitchen-intro {
+.topper .kitchen-intro {
     text-align: center;
     text-transform: uppercase;
     color: #807a79;
     font-weight: bold;
 }
 
-.event-house-description {
-
+.topper .event-house-description {
+    color:#93b5af;
+    text-align: center;
 }
 
 .topper {
@@ -27,5 +29,7 @@ body {
 }
 
 .topper h2 {
-    color:
+    color: #93b5af;
+    text-alight: center;
+    boarder-top: 2px dotted #807a79;
 }
