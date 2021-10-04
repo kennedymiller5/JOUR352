@@ -5,11 +5,22 @@ body {
 }
 
 .logo {
-    width: 50%;
-}
-
-.kitchen-intro {
+    width: 80%;
     
 }
 
-.event-house-description
+.kitchen-intro {
+    text-align: center;
+    text-transform: uppercase;
+    color:
+    font-weight: bold;
+}
+
+.event-house-description {
+
+}
+
+.topper {
+    width: 50%;
+    margin: auto;
+}
