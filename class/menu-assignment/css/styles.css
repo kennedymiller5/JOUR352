@@ -1,10 +1,11 @@
 /* font-family: "Raleway", sans-serif; */
 body {
-    background: red;
     font-family: "Raleway", sans-serif;
+    width: 60%;
+    margin: 80px auto;
 }
 
-
+/* topper */
 .topper .logo {
     width: 80%;
     margin: 0 auto 50px auto;
@@ -16,6 +17,7 @@ body {
     text-transform: uppercase;
     color: #807a79;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .topper .event-house-description {
@@ -24,12 +26,27 @@ body {
 }
 
 .topper {
-    width: 50%;
+    width: 80%;
     margin: auto;
+    margin-bottom: 80px;
 }
 
 .topper h2 {
     color: #93b5af;
-    text-alight: center;
-    boarder-top: 2px dotted #807a79;
+    text-align: center;
+    border-top: 2px dotted #807a79;
+    text-transform: uppercase;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    letter-spacing: 2px;
+}
+
+/* menu */
+h3 {
+    text-transform: uppercase;
+    color: #ab3232;
+    border-bottom: 2px dotted #807a79;
+    letter-spacing: 2px;
+    width: 40%;
 }
