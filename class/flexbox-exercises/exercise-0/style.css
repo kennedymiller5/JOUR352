@@ -64,6 +64,8 @@
 	}
 }
 
+/* DESKTOP FIRST APPROACH */
+
 /* Extra large devices (large laptops and desktops, over 1200px) */
 @media only screen and (min-width: 1200px) {
 	.media-query-example-desktop {
@@ -86,7 +88,7 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up to 992px) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 768px) {
 	.media-query-example-desktop {
 		background-color: #ff6f69;
 	}
@@ -97,7 +99,7 @@
 }
 
 /* Small devices (portrait tablets and large phones, up to 768px) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 768px){
 	.media-query-example-desktop {
 		background-color: #96ceb4;
 	}
