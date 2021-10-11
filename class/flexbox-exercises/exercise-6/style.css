@@ -7,8 +7,22 @@ img:first-of-type {
 	margin-right: 15px;
 }
 
-.container {
-	border: 5px solid #ffcc5c;
+/* mobile version */
+	.container {
+		border: 5px solid #ffcc5c;
+		display: flex;
+		flex-direction: column;
+		order: -1;
+		align-items: stretch;
+		justify-content: space-evenly;
+	}
+}
+
+/* laptop version */
+@media only screen and (min-width: 600px){
+	.container {
+		flex-direction: row;
+	}
 }
 
 .container div {
