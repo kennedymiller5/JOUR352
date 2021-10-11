@@ -23,6 +23,9 @@ img:first-of-type {
 	.container {
 		flex-direction: row;
 	}
+	.container div:nth-of-type(2) {
+		order: 0;
+	}
 }
 
 .container div {
