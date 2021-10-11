@@ -1,3 +1,10 @@
+@media only screen and (min-width: 600px) and (max-width: 786px) {
+	.media-query-text {
+		color: red;
+	}
+}
+
+
 .media-query-example-mobile,
 .media-query-example-desktop {
 	min-height: 300px;
