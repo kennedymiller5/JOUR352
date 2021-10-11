@@ -111,11 +111,11 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-	.media-query-example-mobile {
+	.media-query-example-desktop {
 		background-color: slategrey;
 	}
 
-	.media-query-example-mobile::before {
+	.media-query-example-desktop::before {
 		content: "extra small screens";
 	}
 }
