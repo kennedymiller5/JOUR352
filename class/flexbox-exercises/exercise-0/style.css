@@ -68,6 +68,7 @@
 @media only screen and (min-width: 1200px) {
 	.media-query-example-desktop {
 		background-color: #476ea9;
+		content: "large laptops and desktops";
 	}
 }
 
