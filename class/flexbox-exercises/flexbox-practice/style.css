@@ -28,11 +28,15 @@
 .green {
     background-color: #8DC63F;
     width: 75%;
+    justify-content: space-between;
+    flex-grow: 3;
 }
 
 .orange {
     background-color: #E76E34;
     width: 25%;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 
 /* ex. flex grow of 1 on dark-pink container */
